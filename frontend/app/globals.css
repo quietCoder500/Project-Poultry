@@ -2,32 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.menu li {
+	@apply my-auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.btn-outline:hover {
+	color: white !important
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.outer-headings {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.inner-headings {
+	border: 0px solid #ddd;
+	height: 50px;
+	font-size: 42px;
+	line-height: 50px;
+	overflow: hidden;
+}
+.inner-headings span {
+    top: -150px;
+	position: relative;
+	animation: animation 5s ease-in 1;
+	-webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animation {
+	0% {
+		top: 0;
+	}
+	20% {
+		top: 0;
+	}
+	25% {
+		top: -50px;
+	}
+	45% {
+		top: -50px;
+	}
+	50% {
+		top: -100px;
+	}
+	70% {
+		top: -100px;
+	}
+	75% {
+		top: -150px;
+	}
+	85% {
+		top: -150px;
+	}
+
 }
