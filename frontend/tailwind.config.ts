@@ -27,8 +27,9 @@ const config: Config = {
 			{
 				light: {
 					...require("daisyui/src/theming/themes")["light"],
-					primary: "#0aad56",
-					secondary: "#22c55e",
+					primary: "#1A854C",
+					secondary: "#2D3142",
+					accent: "#A9B4C2",
 				},
 				mytheme: {
 					primary: "#10b981",
@@ -50,7 +51,7 @@ const config: Config = {
 		styled: true, // include daisyUI colors and design decisions for all components
 		utils: true, // adds responsive and modifier utility classes
 		prefix: "", // prefix for daisyUI classnames (components, modifiers and responsive class names. Not colors)
-		logs: true, // Shows info about daisyUI version and used config in the console when building your CSS
+		logs: false, // Shows info about daisyUI version and used config in the console when building your CSS
 		themeRoot: ":root", // The element that receives theme color CSS variables
 	},
 };

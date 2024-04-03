@@ -66,7 +66,7 @@ const Navbar = () => {
 
 			{/* Always Visible */}
 			<div className="flex-1 flex-wrap">
-				<Link href="/" className="btn btn-ghost text-[18px] xs:text-xl w-14 xxs:w-auto md:text-nowrap text-balance">
+				<Link href="/" className="btn btn-ghost text-[18px] text-primary xs:text-xl w-14 xxs:w-auto md:text-nowrap text-balance">
 					Project Poultry
 				</Link>
 			</div>
