@@ -5,7 +5,7 @@ with a system to easily record notes and experences from their
 market chicken project. Additional, using their observations, they 
 can create a good game plan for the following year.
 ## Now *"lets make the Best Better!"*
-I asked Bard, "create a design for a 4-H maket poultry note taking website" and he said:  
+I asked Bard (Gemini now), "create a design for a 4-H maket poultry note taking website" and he said:  
   
   Here is a design for a 4-H market poultry note taking website:
 
@@ -38,10 +38,7 @@ Here are some additional features that could be included in the website to make 
 These features would help 4-H members to learn more about poultry showing and to get the most out of their 4-H poultry projects.
 
 # Todo
-1. Build Backend✔️
-2. Learn React✔️
-3. Build Frontend with React
-4. Rebuild frontend with NextJS
+1. A ton of stuff
 
 ## Fun Features
 - ML Tagging
