@@ -7,11 +7,11 @@
         "splitTerminals": [
           {
             "name": "server",
-            "commands": ["cd backend", "source venv/bin/activate", "clear"]
+            "commands": ["cd backend", "clear", "python manage.py runserver"]
           },
           {
             "name": "client",
-            "commands": ["cd frontend", "npm run dev"]
+            "commands": ["cd frontend", "nmtui", "npm run dev"]
           }
         ]
       }
